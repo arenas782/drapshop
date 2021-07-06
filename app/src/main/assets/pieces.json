@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Printed Dress",
+      "price" : 50.99,
+      "photo_url" : "http://automationpractice.com/img/p/1/0/10-large_default.jpg"
+    },
+    {
+        "title": "Blouse",
+        "price" : 27.00,
+        "photo_url" : "http://automationpractice.com/img/p/7/7-large_default.jpg"
+    }
+    ,
+    {
+        "title": "Printed Summer Dress",
+        "price" : 28.98,
+        "photo_url" : "http://automationpractice.com/img/p/1/2/12-large_default.jpg"
+    }
+    ,
+    {
+        "title": "Printed Chiffon Dress",
+        "price" : 16.40,
+        "photo_url" : "http://automationpractice.com/img/p/2/0/20-large_default.jpg"
+    },
+    {
+        "title": "Faded Short Sleeve T-shirts",
+        "price" : 16.51,
+        "photo_url" : "http://automationpractice.com/img/p/1/1-large_default.jpg"
+    }
+  ]
+  

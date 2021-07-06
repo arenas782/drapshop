@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DrapShop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="dummy_text">This is just dummy test</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="or_sign_up">Or <u>sign-up</u></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="preference_file_key">sHawq12.</string>
+</resources>

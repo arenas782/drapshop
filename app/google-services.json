@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474874871122",
+    "project_id": "drapshop-d39e3",
+    "storage_bucket": "drapshop-d39e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474874871122:android:53bc2c7ca62aa5008e0e8b",
+        "android_client_info": {
+          "package_name": "com.drapshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474874871122-glksvt6s9arlrkgadhfpvj612ocdl21k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqA7sSWgn0hZI4x772aqAmzq90jByY3Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474874871122-glksvt6s9arlrkgadhfpvj612ocdl21k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

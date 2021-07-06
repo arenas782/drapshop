@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Central Park Food Station",
+    "latitude" : 25.80909530609959,
+    "longitude" : -80.23177843175895
+  },
+  {
+    "name": "Chick'nCone Wynwood",
+    "latitude" : 25.797219142493397,
+    "longitude" :  -80.19823898648126
+  }
+  ,{
+    "name": "McDonald's",
+    "latitude" : 25.790200902843246,
+    "longitude" : -80.13183824776401
+  }
+  ,{
+    "name": "El Santo Taqueria",
+    "latitude" : 25.767405546694622,
+    "longitude" : -80.22025058210103
+  }
+  ,{
+    "name": "Taco Bell",
+    "latitude" : 25.767096361423135,
+    "longitude" :  -80.21029422254975
+  }
+  ,{
+    "name": "The Real Food Cafe",
+    "latitude" : 25.850238146205257,
+    "longitude" :  -80.1862616305294
+  }
+  ,{
+    "name": "Makan Miami Food Truck",
+    "latitude" : 25.688438061181927,
+    "longitude" :   -80.38242047548674
+  }
+  ,{
+    "name": "Diced",
+    "latitude" : 25.67371998739781,
+    "longitude" : -80.37078444279328
+  }
+  ,{
+    "name": "Sano Food South Miami",
+    "latitude" : 25.706597482882124,
+    "longitude" : -80.28864794175179
+  }
+  ,{
+    "name": "La Crema Food and Grill",
+    "latitude" : 25.799306483035497,
+    "longitude" :   -80.32190686112182
+  }
+]

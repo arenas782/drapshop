@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="viewModel"
+            type="com.drapshop.ui.login.SignUpViewModel" />
+    </data>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_background"
+    android:padding="@dimen/layout_margin"
+    tools:context=".ui.login.LoginFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxBackgroundColor="@color/gray_background"
+        android:hint="@string/email"
+        app:error="@{viewModel.errorEmail}"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/white"
+        android:id="@+id/email"
+        android:layout_above="@id/password"
+        style="@style/OutlinedRoundedBox"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:text="@={viewModel.email}"
+            android:layout_height="55dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxBackgroundColor="@color/gray_background"
+        android:hint="@string/password"
+        app:hintTextColor="@color/white"
+        android:id="@+id/password"
+        style="@style/OutlinedRoundedBox"
+        android:textColorHint="@color/gray"
+        app:endIconTint="@color/gray"
+        app:endIconMode="password_toggle"
+        app:error="@{viewModel.errorPassword}"
+        app:errorEnabled="true"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:text="@={viewModel.password}"
+            android:layout_height="55dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxBackgroundColor="@color/gray_background"
+        android:hint="@string/password_confirmation"
+        app:hintTextColor="@color/white"
+        android:id="@+id/password_confirmation"
+        android:layout_below="@id/password"
+        app:error="@{viewModel.errorPasswordConfirmation}"
+        app:errorEnabled="true"
+        style="@style/OutlinedRoundedBox"
+        android:textColorHint="@color/gray"
+        app:endIconTint="@color/gray"
+        app:endIconMode="password_toggle"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:text="@={viewModel.passwordConfirmation}"
+            android:textColor="@color/white"
+            android:layout_height="55dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            app:backgroundTint="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/sign_up"
+            android:textColor="@color/black_background"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:id="@+id/sign_up_button"
+            android:enabled="@{viewModel.valid}"
+            android:background="@drawable/button_background" />
+
+
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:elevation="300dp"
+    android:visibility="invisible"
+    />
+</RelativeLayout>
+
+
+
+
+</layout>
